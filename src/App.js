@@ -12,7 +12,7 @@ class App extends Component {
   render(){
     return (
       <Wrapper>
-        <Header> Characters </Header>
+        <Header> Clicky Game </Header>
         {this.state.cards.map(cards =>(
           <Card
           id={cards.id}
