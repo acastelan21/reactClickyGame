@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
+import Card from "./components/Card";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+import cards from "./cards.json";
 import './App.css';
 
 class App extends Component {
-  render() {
+  state ={
+    cards
+  };
+  render(){
     return (
-      <div className="App">
-       HELLO WORLD
-      </div>
+      <Wrapper>
+        <Header> Characters </Header>
+        {this.state.cards.map(cards =>(
+          <Card
+          id={cards.id}
+          key={cards.id}
+          image={cards.image}
+          />
+        ))}
+      </Wrapper>
     );
   }
 }

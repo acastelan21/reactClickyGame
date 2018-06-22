@@ -1,2 +1,2 @@
-export {deafult} from "./Title";
+export {default} from "./Header";
 
