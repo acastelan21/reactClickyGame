@@ -1,10 +1,17 @@
 .header {
-    background-color:rgba(28, 28, 228, 0.74);
+    background-color:rgb(26,35,52);
     width: 100%;
-    text-align: left;
+   
     font-size: 3rem;
-    text-decoration: underline;
+    
     color: white;
     margin-bottom: 50px;
   }
-  
+.scores {
+    margin-right: 10px;
+    float:right;
+}
+.title {
+   
+    float:left;
+}
