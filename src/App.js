@@ -59,6 +59,7 @@ class App extends Component {
   render(){
     return (
       <Wrapper>
+        
         <Header score={this.state.score} highscore={this.state.highscore}> Clicky Game </Header>
         {this.state.cards.map(cards => (
           <Card
@@ -68,6 +69,7 @@ class App extends Component {
           image={cards.image}
           />
         ))}
+     
       </Wrapper>
     );
   }

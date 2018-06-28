@@ -1,6 +1,7 @@
 .wrapper {
+    background: url("../../images/code.jpeg");
     padding-top: 50px;
-    background: #ECEFF1;
+    /* background: #ECEFF1; */
     height: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -9,3 +10,5 @@
     align-content: flex-start;
     overflow: auto;
   }
+
+  
