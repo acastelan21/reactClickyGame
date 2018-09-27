@@ -12,4 +12,4 @@ You can see the deployed website [here](https://desolate-wave-91452.herokuapp.co
 
 
 ## Authors
-Alvaro Castelan | [LinkedIn](https://www.linkedin.com/in/alvarocastelan) | [Portfolio](alvarocastelan.com)
+Alvaro Castelan | [LinkedIn](https://www.linkedin.com/in/alvarocastelan) | [Portfolio](https://www.alvarocastelan.com)
